@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Funções</title>
+  </head>
+  <body>
+    <h2>Fibonacci Recursiva</h2>
+    <h4>Digite um número:</h4>
+    <div>
+      <input id="fibo-rec-value" type="number" />
+      <input
+        class="input-btn"
+        type="submit"
+        value="Calcular"
+        onclick="return fibonacciRec()"
+      />
+    </div>
+    <h4 id="fibo-rec-result"></h4>
+
+    <br />
+
+    <h2>Fibonacci Linear</h2>
+    <h4>Digite um número</h4>
+    <div>
+      <input
+        id="fibo-lin-value"
+        type="number"
+        onsubmit="return fibonacciLin()"
+      />
+      <input
+        class="input-btn"
+        type="submit"
+        value="Calcular"
+        onclick="return fibonacciLin()"
+      />
+    </div>
+    <h4 id="fibo-lin-result"></h4>
+
+    <br />
+
+    <h2>Primo Recursiva</h2>
+    <h4>Digite um número:</h4>
+    <div>
+      <input id="primo-rec-value" type="number" />
+      <input
+        class="input-btn"
+        type="submit"
+        value="Calcular"
+        onclick="return primoRec()"
+      />
+    </div>
+    <h4 id="primo-rec-result"></h4>
+
+    <br />
+
+    <h2>Primo Linear</h2>
+    <h4>Digite um número</h4>
+    <div>
+      <input id="primo-lin-value" type="number" />
+      <input
+        class="input-btn"
+        type="submit"
+        value="Calcular"
+        onclick="return primoLin()"
+      />
+    </div>
+    <h4 id="primo-lin-result"></h4>
+  </body>
+
+  <script type="text/javascript" src="./assets/scripts.js"></script>
+</html>
